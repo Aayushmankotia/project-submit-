@@ -1,0 +1,21 @@
+<html>
+<head>
+<style>
+form{
+text-align:center;
+text-color:red;
+text-size:40px;}
+</style>
+
+<body>
+<script>
+<form action="form">
+username <input type="text" name="username" value="" pattern="[A-Z,a-z,@]{9}"required><br>
+password <input type="password" name="password" value="" pattern="[0-9]{6}"required><br>
+if(password>=7){
+window.alert('enter 6 digit password');}
+<input type="submit" action="submit">
+</form>
+</script>
+</body>
+</html>
